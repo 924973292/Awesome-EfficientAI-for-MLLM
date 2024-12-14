@@ -50,6 +50,9 @@ Whether you're a researcher exploring new optimization techniques or a practitio
   - [FastV](https://arxiv.org/pdf/2403.06764)  Code: [GitHub](https://github.com/pkunlp-icler/FastV)
   - [SparseVLM](https://arxiv.org/abs/2410.04417) Code: [GitHub](https://github.com/Gumpest/SparseVLMs)
   - [VisionZip](https://arxiv.org/abs/2412.04467) Code: [GitHub](https://github.com/dvlabresearch/VisionZip)
+  - [FiCoCo](https://arxiv.org/pdf/2411.17686) Code: [GitHub](https://ficoco-accelerate.github.io/)
+  - [AIM](https://arxiv.org/pdf/2412.03248) Code: [GitHub](https://github.com/LaVi-Lab/AIM)
+
 
 - **New Architectures**: Novel model architectures designed for efficiency.  
   - [Cobra](https://arxiv.org/abs/2403.14520) Code: [GitHub](https://github.com/h-zhao1997/cobra)
