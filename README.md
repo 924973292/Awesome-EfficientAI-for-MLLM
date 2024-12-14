@@ -37,7 +37,7 @@ The repository aims to provide a comprehensive overview of the latest advancemen
 
 
 - **New Architectures**: Novel model architectures designed for efficiency.  
-  - Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference [Paper](https://arxiv.org/abs/2403.14520) Code: [GitHub](https://github.com/h-zhao1997/cobra)
+  - Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference [Paper](https://arxiv.org/abs/2403.14520) [Code](https://github.com/h-zhao1997/cobra)
 
 ---
 
