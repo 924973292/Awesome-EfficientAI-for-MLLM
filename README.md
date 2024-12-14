@@ -12,8 +12,6 @@ A curated list of awesome resources, research papers, and tools for optimizing a
   - [Model Compression](#model-compression)
   - [Deployment and Acceleration](#deployment-and-acceleration)
   - [Multimodal Integration](#multimodal-integration)
-- [Community](#community)
-- [How to Contribute](#how-to-contribute)
 - [License](#license)
 
 ---
@@ -43,41 +41,16 @@ The repository aims to provide a comprehensive overview of the latest advancemen
 
 ---
 
-## Community
+## Star History
 
-Join our community to share your projects, tools, or insights:
+[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-EfficientAI-for-MLLM&type=Date)](https://star-history.com/#924973292/Awesome-EfficientAI-for-MLLM&Date)
 
-- [Discussion Forum](https://example-forum.com)
-- [Slack Group](https://example-slack.com)
-- [Twitter](https://twitter.com/efficientai_mllm)
+## Contact
 
----
+Feel free to reach out if you have any questions, suggestions, or collaboration proposals:
 
-## How to Contribute
-
-We welcome contributions of any kind!
-
-### Submitting Content
-
-1. Fork this repository.
-2. Create a branch and add your content.
-3. Submit a pull request (PR) with a description of your changes.
-
-### Adding Papers
-
-- Ensure the paper is relevant to the repository's scope.
-- Provide a clear and concise summary if possible.
-- Include links to the paper and code (if available).
-
-### Types of Contributions
-
-- Add new papers, tools, or resources.
-- Improve descriptions or fix formatting issues.
-- Share use cases or practical tutorials.
-
-Check our [Contributing Guide](CONTRIBUTING.md) for more details.
-
----
+- Email: [924973292@mail.dlut.edu.cn](mailto:924973292@mail.dlut.edu.cn)
+- Web: [924973292.github.io](https://924973292.github.io//)
 
 ## License
 
@@ -86,18 +59,3 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 Thank you for supporting **Awesome EfficientAI for MLLM**! Let’s build an efficient AI ecosystem 🚀
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-EfficientAI-for-MLLM&type=Date)](https://star-history.com/#924973292/Awesome-EfficientAI-for-MLLM&Date)
-
-## Acknowledgments
-
-I want to express my gratitude to the academic community and everyone contributing to the advancement of multi-modal object re-identification research.
-
-## Contact
-
-Feel free to reach out if you have any questions, suggestions, or collaboration proposals:
-
-- Email: [924973292@mail.dlut.edu.cn](mailto:924973292@mail.dlut.edu.cn)
-- Web: [924973292.github.io](https://924973292.github.io//)
