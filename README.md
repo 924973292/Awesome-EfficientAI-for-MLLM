@@ -47,15 +47,15 @@ Whether you're a researcher exploring new optimization techniques or a practitio
 #### Papers
 
 - **Pruning**: Methods for removing unnecessary weights to make models smaller and faster.  
-  - [FastV](https://arxiv.org/pdf/2403.06764)  Code: [GitHub](https://github.com/pkunlp-icler/FastV)
-  - [SparseVLM](https://arxiv.org/abs/2410.04417) Code: [GitHub](https://github.com/Gumpest/SparseVLMs)
-  - [VisionZip](https://arxiv.org/abs/2412.04467) Code: [GitHub](https://github.com/dvlabresearch/VisionZip)
-  - [FiCoCo](https://arxiv.org/pdf/2411.17686) Code: [GitHub](https://ficoco-accelerate.github.io/)
-  - [AIM](https://arxiv.org/pdf/2412.03248) Code: [GitHub](https://github.com/LaVi-Lab/AIM)
+  - [FastV: An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models](https://arxiv.org/pdf/2403.06764)  [Code](https://github.com/pkunlp-icler/FastV)
+  - [SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference](https://arxiv.org/abs/2410.04417) [Code](https://github.com/Gumpest/SparseVLMs)
+  - [VisionZip: Longer is Better but Not Necessary in Vision Language Models](https://arxiv.org/abs/2412.04467) [Code](https://github.com/dvlabresearch/VisionZip)
+  - [FiCoCo: Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration](https://arxiv.org/pdf/2411.17686) [Code](https://ficoco-accelerate.github.io/)
+  - [AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning](https://arxiv.org/pdf/2412.03248) [Code](https://github.com/LaVi-Lab/AIM)
 
 
 - **New Architectures**: Novel model architectures designed for efficiency.  
-  - [Cobra](https://arxiv.org/abs/2403.14520) Code: [GitHub](https://github.com/h-zhao1997/cobra)
+  - [Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference](https://arxiv.org/abs/2403.14520) Code: [GitHub](https://github.com/h-zhao1997/cobra)
 
 #### Tools
 
