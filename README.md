@@ -1,57 +1,159 @@
-# Awesome-Multi-Modal Object Re-Identification Repository
+# Awesome EfficientAI for MLLM
 
-Welcome to the Awesome-Multi-Modal Object Re-Identification Repository! This repository is dedicated to curating and sharing cutting-edge methods and resources specifically focused on multi-modal object re-identification.
+A curated list of awesome resources, research papers, and tools for optimizing and efficiently utilizing Multi-Large Language Models (MLLMs). This repository is designed to serve as a one-stop resource hub for developers, researchers, and enthusiasts aiming to build efficient AI solutions.
 
-## My Papers
-- [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Code](<https://github.com/924973292/DeMo>)
-- [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Code](<https://github.com/924973292/MambaPro>)
-- [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
-- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
+---
 
-## Multi-Modal ReID
+## 📖 Table of Contents
 
-### Methods
+- [Introduction](#introduction)
+- [Features](#features)
+- [Categories](#categories)
+  - [Optimization Techniques](#optimization-techniques)
+  - [Model Compression](#model-compression)
+  - [Deployment and Acceleration](#deployment-and-acceleration)
+  - [Multimodal Integration](#multimodal-integration)
+- [Community](#community)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
 
-#### Multi-Modal Object ReID
-- [AAAI25-DeMo]<br>*DeMo: Decoupled Feature-Based Mixture of Experts for Multi-Modal Object Re-Identification*<br>[Code](<https://github.com/924973292/DeMo>)
-- [AAAI25-MambaPro]<br>*MambaPro: Multi-Modal Object Re-identification with Mamba Aggregation and Synergistic Prompt*<br>[Code](<https://github.com/924973292/MambaPro>)
-- [TCSVT24-RSCNet]<br>*Representation Selective Coupling via Token Sparsification for Multi-Spectral Object Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/abstract/document/10772090>)
-- [ESWA25-LRMM]<br>*LRMM: Low rank multi-scale multi-modal fusion for person re-identification based on RGB-NI-TI*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S0957417424025831>)
-- [Sensors24-MambaReID]<br>*MambaReID: Exploiting Vision Mamba for Multi-Modal Object Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/24/14/4639>)
-- [CVPR24-EDITOR]<br>*Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification*<br>[Paper](<https://arxiv.org/abs/2403.10254>) [Code](<https://github.com/924973292/EDITOR>)
-- [AAAI24-TOP-ReID]<br>*TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation*<br>[Paper](<https://arxiv.org/abs/2312.09612>) [Code](<https://github.com/924973292/TOP-ReID>)
-- [AAAI24-HTT]<br>*Heterogeneous Test-Time Training for Multi-Modal Person Re-identifcation*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/28398>) [Code](<https://github.com/ziwang1121/HTT>)
-- [NeurIPS23-UniCat]<br>*UniCat: Crafting a Stronger Fusion Baseline for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.18812.pdf>) [Code](<https://github.com/Nano1337/UniCat>)
-- [arXiv23-GraFT]<br>*GraFT: Gradual Fusion Transformer for Multimodal Re-Identification*<br>[Paper](<https://arxiv.org/pdf/2310.16856v1.pdf>) [Code](<https://github.com/Nano1337/GraFT>)
+---
 
-#### Multi-Modal Person ReID
-- [MLCCIM23-MMCF]<br>*Multimodal Consistency Co-Assisted Training for Person Re-Identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10339497>)
-- [ICSP23-LRFNet]<br>*Low-rank Fusion Network for Multi-modality Person Re-identification*<br>[Paper](<https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10248672>)
-- [TNNLS23-DENet]<br>*Dynamic Enhancement Network for Partial Multi-modality Person Re-identification*<br>[Paper](https://arxiv.org/abs/2305.15762)
-- [AAAI22-IEEE]<br>*Interact, Embed, and EnlargE: Boosting Modality-Specific Representations for Multi-Modal Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/20165>) [Code](<https://github.com/littleprince1121/IEEE_Boosting_Modality-specific_Representations_for_Multi-Modal_Person_ReID>)
-- [AAAI21-PFNet]<br>*Robust Multi-Modality Person Re-identification*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/16467>)
+## Introduction
 
-#### Multi-Modal Vehicle ReID
-- [Inform Fusion24-FACENet]<br>*Flare-aware cross-modal enhancement network for multi-spectral vehicle Re-identification*<br>[Paper](<https://www.sciencedirect.com/science/article/pii/S1566253524005785>) [Code](<https://github.com/Mzq12138/Official-Implementation-for-Flare-Aware-Cross-modal-Enhancement-for-Multi-spectral-Vehicle-ReID?tab=readme-ov-file>)
-- [Sensors23-PHT]<br>*Progressively Hybrid Transformer for Multi-Modal Vehicle Re-Identification*<br>[Paper](<https://www.mdpi.com/1424-8220/23/9/4206>)
-- [TITS23-GPFNet]<br>*Graph-based progressive fusion network for multi-modality vehicle re-identification*<br>[Paper](<https://ieeexplore.ieee.org/document/10159551>)
-- [Inform Fusion22-CCNet]<br>*Multi-spectral Vehicle Re-identification with Cross-directional Consistency Network and A High-quality Benchmark*<br>[Paper](<https://arxiv.org/abs/2208.00632>) [Code](<https://github.com/superlollipop123/Cross-directional-Center-Network-and-MSVR310>)
-- [ICSP22-GAFNet]<br>*Generative and attentive fusion for multi-spectral vehicle re-identification*<br>[Paper](<https://ieeexplore.ieee.org/document/9778769?denied=>)
-- [AAAI20-HAMNet]<br>*Multi-Spectral Vehicle Re-Identification: A Challenge*<br>[Paper](<https://ojs.aaai.org/index.php/AAAI/article/view/6796>) [Code](<https://github.com/ttaalle/multi-modal-vehicle-Re-ID>)
+The rise of large language models (LLMs) like GPT, BERT, and LLaMA has brought new challenges in efficiently deploying and utilizing these models. **Awesome EfficientAI for MLLM** compiles state-of-the-art research and tools to help:
 
-### Datasets
-#### Multi-Modal Person ReID
-- [RGBNT201(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
-- [Market1501-MM(RGB+NIR+TIR)](<https://drive.google.com/drive/folders/1EscBadX-wMAT56_It5lXY-S3-b5nK1wH>)
-#### Multi-Modal Vehicle ReID
-- [RGBNT100(RGB+NIR+TIR)](<https://pan.baidu.com/s/1xqqh7N4Lctm3RcUdskG0Ug>) (rjin) 
-- [RGBNT300(RGB+NIR)](https://pan.baidu.com/s/1uiKcqiqdhd13nLSW8TUASg) (11y8)
-- [MSVR310(RGB+NIR+TIR)](https://drive.google.com/file/d/1IxI-fGiluPO_Ies6YjDHeTEuVYhFdYwD/view?usp=drive_link)
-- [MSVWild863(RGB+NIR+TIR)](https://github.com/Mzq12138/Official-Implementation-for-Flare-Aware-Cross-modal-Enhancement-for-Multi-spectral-Vehicle-ReID?tab=readme-ov-file) (msvw)
+- **Optimize Costs**: Reduce computational resource requirements for training and inference.
+- **Enhance Efficiency**: Maintain or improve model performance using techniques like quantization, pruning, and distillation.
+- **Accelerate Deployment**: Provide practical tools, templates, and guidance to streamline the deployment of optimized models.
+
+Whether you're a researcher exploring new optimization techniques or a practitioner deploying LLMs, this repository is here to help!
+
+---
+
+## Features
+
+- 📚 **Curated Research Papers**: Organized collections of influential papers on efficient AI techniques.
+- 🛠️ **Tools and Frameworks**: Comprehensive resources for implementing and deploying efficient models.
+- 💡 **Best Practices**: Tutorials and guides for real-world applications.
+- 🌐 **Community Support**: Links to forums, discussions, and collaborative projects.
+
+---
+
+## Categories
+
+### Optimization Techniques
+
+#### Papers
+
+- **Quantization**: Techniques for reducing numerical precision in models without losing accuracy.  
+  - [Efficient Quantization of Neural Networks](https://arxiv.org/abs/example1)  
+  - [Quantization-Aware Training for Transformers](https://arxiv.org/abs/example2)
+
+- **Pruning**: Methods for removing unnecessary weights to make models smaller and faster.  
+  - [Lottery Ticket Hypothesis](https://arxiv.org/abs/example3)  
+  - [Dynamic Sparse Training](https://arxiv.org/abs/example4)
+
+- **Knowledge Distillation**: Transferring knowledge from larger models to smaller ones.  
+  - [DistilBERT](https://arxiv.org/abs/example5)  
+  - [Comprehensive Survey on Distillation](https://arxiv.org/abs/example6)
+
+#### Tools
+
+- [Hugging Face Optimum](https://huggingface.co/docs/optimum/index)
+- [Intel Neural Compressor](https://github.com/intel/neural-compressor)
+
+---
+
+### Model Compression
+
+#### Papers
+
+- [Knowledge Distillation Techniques](https://arxiv.org/abs/example7)
+- [Model Compression with Minimal Performance Loss](https://arxiv.org/abs/example8)
+
+#### Tools
+
+- [ONNX Runtime](https://onnxruntime.ai/)
+- [TensorRT](https://developer.nvidia.com/tensorrt)
+
+---
+
+### Deployment and Acceleration
+
+#### Papers
+
+- [Efficient Inference for Large Transformers](https://arxiv.org/abs/example9)
+- [Accelerating Model Inference on Edge Devices](https://arxiv.org/abs/example10)
+
+#### Tools
+
+- [Ray Serve](https://docs.ray.io/en/latest/serve/index.html)
+- [Deepspeed](https://www.deepspeed.ai/)
+
+---
+
+### Multimodal Integration
+
+#### Papers
+
+- [Aligning Vision and Language Models](https://arxiv.org/abs/example11)
+- [Multimodal Fusion Techniques](https://arxiv.org/abs/example12)
+
+#### Tools
+
+- [CLIP Model](https://github.com/openai/CLIP)
+- [VLMo Framework](https://github.com/microsoft/VLMo)
+
+---
+
+## Community
+
+Join our community to share your projects, tools, or insights:
+
+- [Discussion Forum](https://example-forum.com)
+- [Slack Group](https://example-slack.com)
+- [Twitter](https://twitter.com/efficientai_mllm)
+
+---
+
+## How to Contribute
+
+We welcome contributions of any kind!
+
+### Submitting Content
+
+1. Fork this repository.
+2. Create a branch and add your content.
+3. Submit a pull request (PR) with a description of your changes.
+
+### Adding Papers
+
+- Ensure the paper is relevant to the repository's scope.
+- Provide a clear and concise summary if possible.
+- Include links to the paper and code (if available).
+
+### Types of Contributions
+
+- Add new papers, tools, or resources.
+- Improve descriptions or fix formatting issues.
+- Share use cases or practical tutorials.
+
+Check our [Contributing Guide](CONTRIBUTING.md) for more details.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Thank you for supporting **Awesome EfficientAI for MLLM**! Let’s build an efficient AI ecosystem 🚀
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-Multi-Modal-Object-Re-Identification&type=Date)](https://star-history.com/#924973292/Awesome-Multi-Modal-Object-Re-Identification&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=924973292/Awesome-EfficientAI-for-MLLM&type=Date)](https://star-history.com/#924973292/Awesome-EfficientAI-for-MLLM&Date)
 
 ## Acknowledgments
 
@@ -63,27 +165,3 @@ Feel free to reach out if you have any questions, suggestions, or collaboration 
 
 - Email: [924973292@mail.dlut.edu.cn](mailto:924973292@mail.dlut.edu.cn)
 - Web: [924973292.github.io](https://924973292.github.io//)
-
-
-## Citation
-If you find our work useful in your research, please consider citing our papers:
-```bibtex
-@inproceedings{wang2024top,
-  title={TOP-ReID: Multi-spectral Object Re-Identification with Token Permutation},
-  author={Wang, Yuhao and Liu, Xuehu and Zhang, Pingping and Lu, Hu and Tu, Zhengzheng and Lu, Huchuan},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={38},
-  number={6},
-  pages={5758--5766},
-  year={2024}
-}
-
-@InProceedings{Zhang_2024_CVPR,
-    author    = {Zhang, Pingping and Wang, Yuhao and Liu, Yang and Tu, Zhengzheng and Lu, Huchuan},
-    title     = {Magic Tokens: Select Diverse Tokens for Multi-modal Object Re-Identification},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2024},
-    pages     = {17117-17126}
-}
-```
