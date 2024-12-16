@@ -31,11 +31,15 @@ The repository aims to provide a comprehensive overview of the latest advancemen
 - **Pruning**: Methods for removing unnecessary weights to make models smaller and faster.
   - **2024.12.09** iLLaVA: An Image is Worth Fewer Than 1/3 Input Tokens in Large Multimodal Models [Paper](https://arxiv.org/abs/2412.06263) [Code](https://github.com/hulianyuyy/iLLaVA)
   - **2024.12.05** VisionZip: Longer is Better but Not Necessary in Vision Language Models [Paper](https://arxiv.org/abs/2412.04467) [Code](https://github.com/dvlabresearch/VisionZip)
-  - **2024.12.04** FiCoCo: Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration [Paper](https://arxiv.org/pdf/2411.17686) [Code](https://ficoco-accelerate.github.io/)
-  - **2024.12.04** AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning [Paper](https://arxiv.org/pdf/2412.03248) [Code](https://github.com/LaVi-Lab/AIM)
-  - **2024.10.09** SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference [Paper](https://arxiv.org/abs/2410.04417) [Code](https://github.com/Gumpest/SparseVLMs)
-  - **2024.09.12** FastV: An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models [Paper](https://arxiv.org/pdf/2403.06764)  [Code](https://github.com/pkunlp-icler/FastV)
-  - **2024.05.22** LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models [Paper](https://arxiv.org/abs/2403.15388) [Code](https://github.com/42Shawn/LLaVA-PruMerge)
+  - **2024.12.04** 
+    - FiCoCo: Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration [Paper](https://arxiv.org/pdf/2411.17686) [Code](https://ficoco-accelerate.github.io/)
+    - AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning [Paper](https://arxiv.org/pdf/2412.03248) [Code](https://github.com/LaVi-Lab/AIM)
+  - **2024.10.09** 
+    - SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference [Paper](https://arxiv.org/abs/2410.04417) [Code](https://github.com/Gumpest/SparseVLMs)
+  - **2024.09.12** 
+    - FastV: An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models [Paper](https://arxiv.org/pdf/2403.06764)  [Code](https://github.com/pkunlp-icler/FastV)
+  - **2024.05.22** 
+    - LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models [Paper](https://arxiv.org/abs/2403.15388) [Code](https://github.com/42Shawn/LLaVA-PruMerge)
 
 ---
 
