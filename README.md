@@ -36,6 +36,9 @@ The repository aims to provide a comprehensive overview of the latest advancemen
   - **2024.10.09** SparseVLM: Visual Token Sparsification for Efficient Vision-Language Model Inference [Paper](https://arxiv.org/abs/2410.04417) [Code](https://github.com/Gumpest/SparseVLMs)
   - **2024.09.12** FastV: An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Inference Acceleration for Large Vision-Language Models [Paper](https://arxiv.org/pdf/2403.06764)  [Code](https://github.com/pkunlp-icler/FastV)
   - **2024.05.22** LLaVA-PruMerge: Adaptive Token Reduction for Efficient Large Multimodal Models [Paper](https://arxiv.org/abs/2403.15388) [Code](https://github.com/42Shawn/LLaVA-PruMerge)
+
+---
+
 - **New Architectures**: Novel model architectures designed for efficiency.  
   - **2024.06.05** Cobra: Extending Mamba to Multi-Modal Large Language Model for Efficient Inference [Paper](https://arxiv.org/abs/2403.14520) [Code](https://github.com/h-zhao1997/cobra)
 
