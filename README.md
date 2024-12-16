@@ -28,7 +28,7 @@ The repository aims to provide a comprehensive overview of the latest advancemen
 
 #### Papers
 
-- **Pruning**: Methods for removing unnecessary weights to make models smaller and faster.
+- **Pruning/Merging**: Methods for removing unnecessary weights to make models smaller and faster.
   - **2024.12.09** 
     - iLLaVA: An Image is Worth Fewer Than 1/3 Input Tokens in Large Multimodal Models [Paper](https://arxiv.org/abs/2412.06263) [Code](https://github.com/hulianyuyy/iLLaVA)
   - **2024.12.05** 
