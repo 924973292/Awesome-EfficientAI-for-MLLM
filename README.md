@@ -29,8 +29,10 @@ The repository aims to provide a comprehensive overview of the latest advancemen
 #### Papers
 
 - **Pruning**: Methods for removing unnecessary weights to make models smaller and faster.
-  - **2024.12.09** iLLaVA: An Image is Worth Fewer Than 1/3 Input Tokens in Large Multimodal Models [Paper](https://arxiv.org/abs/2412.06263) [Code](https://github.com/hulianyuyy/iLLaVA)
-  - **2024.12.05** VisionZip: Longer is Better but Not Necessary in Vision Language Models [Paper](https://arxiv.org/abs/2412.04467) [Code](https://github.com/dvlabresearch/VisionZip)
+  - **2024.12.09** 
+    - iLLaVA: An Image is Worth Fewer Than 1/3 Input Tokens in Large Multimodal Models [Paper](https://arxiv.org/abs/2412.06263) [Code](https://github.com/hulianyuyy/iLLaVA)
+  - **2024.12.05** 
+    - VisionZip: Longer is Better but Not Necessary in Vision Language Models [Paper](https://arxiv.org/abs/2412.04467) [Code](https://github.com/dvlabresearch/VisionZip)
   - **2024.12.04** 
     - FiCoCo: Rethinking Token Reduction in MLLMs: Towards a Unified Paradigm for Training-Free Acceleration [Paper](https://arxiv.org/pdf/2411.17686) [Code](https://ficoco-accelerate.github.io/)
     - AIM: Adaptive Inference of Multi-Modal LLMs via Token Merging and Pruning [Paper](https://arxiv.org/pdf/2412.03248) [Code](https://github.com/LaVi-Lab/AIM)
